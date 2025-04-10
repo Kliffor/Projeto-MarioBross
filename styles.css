@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 200px;
+    padding: 25px;
+}
+
+.irmaos{
+    height: 500px;
+}
+
+.caixa-principal{
+    width: 40%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.caixa-mae {
+    
+    padding: 100px;
+    height: 100vh;    
+}
+
+.botao-contato {
+    color: white;
+    background-color: #C51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px;
+}
+
+body{
+    height: 100vh;
+}
+
+.caixa-video{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video{
+    width: 100vw;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.contato-whatsapp img{
+    position: fixed;
+    height: 60px;
+    right: 20px;
+    bottom: 20px;    
+}
