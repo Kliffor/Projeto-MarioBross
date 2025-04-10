@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+p{
+    font-size: 16px;
+    height: 1;
+}
+
 .logo {
     height: 200px;
     padding: 25px;
@@ -13,22 +18,17 @@
     height: 500px;
 }
 
-.caixa-principal{
-    width: 40%;
+.caixa-mae{
     color: #ffffff;
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+    margin: 100px;  
+    text-justify: ;
 }
 
-.caixa-mae {
-    
-    padding: 100px;
-    height: 100vh;    
-}
-
-.botao-contato {
+button {
     color: white;
     background-color: #C51111;
     border-radius: 3px;
@@ -38,7 +38,8 @@
     text-transform: uppercase;
     cursor: pointer;
     font-weight: bold;
-    margin: 20px;
+    margin-top: 20px;
+
 }
 
 body{
@@ -69,4 +70,67 @@ video{
     height: 60px;
     right: 20px;
     bottom: 20px;    
+}
+
+p{
+    color: #ffffff;
+    font-size: 20x;
+}
+
+header img{
+    height: 60px;
+}
+
+header{
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 4px;
+    cursor: pointer;
+
+}
+
+header a:hover{
+    color: #C51111;
+    font-size: 18px;
+    transition: 1s color ease-in-out;
+}
+
+button:hover{
+    color:#000000;
+    font-size: 15px;
+}
+
+.formulario-fale-conosco{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    top: 30%;
+    left: -300px;
+}
+
+input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+textarea{
+    height: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
 }

@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+  <header>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
     <title>Mario Bross</title>
-  </head>
+  </header>
   <body>
-    <!-- <header>
-      <a>Home</a>
-      <a>Fale Conosco</a>
+    <header>
+      <img src="./img/icon.png" alt="logo-mario" />
+      <a class="home">Home</a>
+      <a class="">Fale Conosco</a>
       <a>Nossos Servicos</a>
-    </header> -->
+    </header>
     <div class="caixa-mae">
       <div class="caixa-principal">
         <img src="./img/logo.png" alt="Mario" class="logo" />
-
         <p>
           Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com
           Estilo!
         </p>
-
         <p>
           Você já se encontrou em uma situação de emergêcia com encanamento?
           Vazamentos inesperados, canos entupidos ou torneiras que não param de
@@ -29,14 +28,19 @@
           Cogumelos - Mario e Luigi!
         </p>
 
+        <button>Entre em contato</button>
+      </div>
+      <div>
         <img src="./img/mario.png" alt="mario" class="irmaos" />
       </div>
     </div>
 
-    <button class="botao-contato">Entre em contato</button>
-    
-    <a target="_blank" href="https://wa.me/5527998509783?text=Ol%C3%A1,%20quero%20ajudar%20por%20favor." class="contato-whatsapp">
-        <img src="./img/whatsapp.png" alt="link-conatato-whatsapp">
+    <a
+      target="_blank"
+      href="https://wa.me/5527998509783?text=Ol%C3%A1,%20quero%20ajudar%20por%20favor."
+      class="contato-whatsapp"
+    >
+      <img src="./img/whatsapp.png" alt="link-conatato-whatsapp" />
     </a>
 
     <div class="caixa-video">
@@ -44,5 +48,12 @@
     </div>
 
     <div class="mascara"></div>
+
+    <form class="formulario-fale-conosco">
+        <input placeholder="Seu nome"/>
+        <input placeholder="Seu telefone">
+        <textarea placeholder="Digite seu problema aqui."></textarea>
+        <button>Pedir Orçamento</button>
+    </form>
   </body>
 </html>
