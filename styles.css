@@ -118,6 +118,7 @@ header a:hover{
     gap: 20px;
     top: 30%;
     left: -233px;
+    transition: left 1s ease-in-out;
 }
 
 input{
@@ -144,6 +145,7 @@ textarea{
     height: 100vh;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     visibility: hidden;
+    transition: left 1s ease-in-out;
 }
 
 .caixa-principal{

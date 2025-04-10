@@ -1,6 +1,6 @@
 
 const form = document.querySelector(".formulario-fale-conosco")
-let mascara = document.querySelector(".mascara-formulario")
+const mascara = document.querySelector(".mascara-formulario")
 
 function cliqueiNoBotao(){
     form.style.left = "50%"
