@@ -7,10 +7,11 @@
     <title>Mario Bross</title>
   </header>
   <body>
+    <!--<div class="mascara-formulario"></div>-->
     <header>
       <img src="./img/icon.png" alt="logo-mario" />
       <a class="home">Home</a>
-      <a class="">Fale Conosco</a>
+      <a class="" onclick="cliqueiNoBotao()">Fale Conosco</a>
       <a>Nossos Servicos</a>
     </header>
     <div class="caixa-mae">
@@ -28,7 +29,7 @@
           Cogumelos - Mario e Luigi!
         </p>
 
-        <button>Entre em contato</button>
+        <button onclick="cliqueiNoBotao()">Entre em contato</button>
       </div>
       <div>
         <img src="./img/mario.png" alt="mario" class="irmaos" />
@@ -47,7 +48,7 @@
       <video src="./video/video.mp4" autoplay loop muted class="video"></video>
     </div>
 
-    <div class="mascara"></div>
+    <div class="mascara" onclick="cliqueiNoBotao()"></div>
 
     <form class="formulario-fale-conosco">
         <input placeholder="Seu nome"/>
@@ -56,4 +57,6 @@
         <button>Pedir Orçamento</button>
     </form>
   </body>
+  <script src="scripts.js"></script>
+
 </html>

@@ -24,7 +24,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 100px;  
+    margin: 40px;  
     text-justify: ;
 }
 
@@ -39,7 +39,13 @@ button {
     cursor: pointer;
     font-weight: bold;
     margin-top: 20px;
+  
 
+}
+
+button:hover{
+    color:#000000;
+    font-size: 15px;
 }
 
 body{
@@ -53,7 +59,10 @@ body{
 }
 
 video{
-    width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 30px;
 }
 
 .mascara {
@@ -63,8 +72,8 @@ video{
     position: fixed;
     top: 0;
     z-index: -1;
+    
 }
-
 .contato-whatsapp img{
     position: fixed;
     height: 60px;
@@ -97,11 +106,6 @@ header a:hover{
     transition: 1s color ease-in-out;
 }
 
-button:hover{
-    color:#000000;
-    font-size: 15px;
-}
-
 .formulario-fale-conosco{
     background-color: white;
     display: flex;
@@ -113,7 +117,7 @@ button:hover{
     border-radius: 5px;
     gap: 20px;
     top: 30%;
-    left: -300px;
+    left: -233px;
 }
 
 input{
@@ -133,4 +137,15 @@ textarea{
     outline-color: #18D80F;
 }
 
+.mascara-formulario{
+
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+.caixa-principal{
+    width: 550px;
 }
