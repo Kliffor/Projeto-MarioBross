@@ -9,7 +9,7 @@
   <body>
     <div class="mascara-formulario" onclick="clicarNaMascara()"></div>
     <header>
-      <img src="./img/icon.png" alt="logo-mario" />
+      <img src="./img/icon.png" alt="logo-mario" class="logo-mario" />
       <a class="home">Home</a>
       <a class="" onclick="cliqueiNoBotao()">Fale Conosco</a>
       <a>Nossos Servicos</a>
@@ -29,7 +29,7 @@
           Cogumelos - Mario e Luigi!
         </p>
 
-        <button onclick="cliqueiNoBotao()">Entre em contato</button>
+        <button onclick="cliqueiNoBotao()" class="button">Entre em contato</button>
       </div>
       <div>
         <img src="./img/mario.png" alt="mario" class="irmaos" />
@@ -58,7 +58,10 @@
     >
       <input placeholder="Seu nome" type="text" name="nome" />
       <input placeholder="Seu telefone" type="tel" name="telefone" />
-      <textarea placeholder="Digite seu problema aqui." name="duvida"></textarea>
+      <textarea
+        placeholder="Digite seu problema aqui."
+        name="duvida"
+      ></textarea>
       <button type="submit">Pedir Orçamento</button>
     </form>
   </body>
