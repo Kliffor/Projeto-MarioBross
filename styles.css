@@ -1,153 +1,211 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-p{
-    font-size: 16px;
-    height: 1;
+p {
+  font-size: 16px;
+  height: 1;
 }
 
 .logo {
-    height: 200px;
-    padding: 25px;
+  height: 200px;
+  padding: 25px;
 }
 
-.irmaos{
-    height: 500px;
+.irmaos {
+  height: 500px;
 }
 
-.caixa-mae{
-    color: #ffffff;
-    height: 100vh; 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 40px;  
-    text-justify: ;
+.caixa-mae {
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px;
 }
 
 button {
-    color: white;
-    background-color: #C51111;
-    border-radius: 3px;
-    border: none;
-    width: 200px;
-    height: 50px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 20px;
-  
-
+  color: white;
+  background-color: #c51111;
+  border-radius: 3px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
-button:hover{
-    color:#000000;
-    font-size: 15px;
+button:hover {
+  color: #000000;
+  font-size: 15px;
 }
 
-body{
-    height: 100vh;
+body {
+  height: 100vh;
 }
 
-.caixa-video{
-    position: fixed;
-    top: 0;
-    z-index: -1;
+.caixa-mae {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+  height: 100vh;
 }
 
-video{
-    min-height: 100%;
-    min-width: 100%;
-    position: fixed;
-    top: 30px;
+.caixa-video {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+
+video {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
 }
 
 .mascara {
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    position: fixed;
-    top: 0;
-    z-index: -1;
-    
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  position: fixed;
+  top: 0;
+  z-index: -1;
 }
-.contato-whatsapp img{
-    position: fixed;
-    height: 60px;
-    right: 20px;
-    bottom: 20px;    
+.contato-whatsapp img {
+  position: fixed;
+  height: 60px;
+  right: 20px;
+  bottom: 20px;
 }
 
-p{
+p {
+  color: #ffffff;
+  font-size: 20x;
+}
+
+header img {
+  height: 60px;
+}
+
+header {
+  color: white;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 4px;
+  cursor: pointer;
+}
+
+header a:hover {
+  color: #c51111;
+  font-size: 18px;
+  transition: 1s color ease-in-out;
+}
+
+.formulario-fale-conosco {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  gap: 20px;
+  top: 30%;
+  left: -233px;
+  transition: left 1s ease-in-out;
+}
+
+input {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  outline-color: #18d80f;
+}
+
+textarea {
+  height: 100px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 5px;
+  outline-color: #18d80f;
+}
+
+.mascara-formulario {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    109deg,
+    rgba(10, 12, 16, 0.99) 15%,
+    rgba(10, 12, 16, 0.7) 50%,
+    rgba(10, 12, 16, 0.99) 85%
+  );
+  visibility: hidden;
+  transition: left 1s ease-in-out;
+}
+
+.caixa-principal {
+  width: 550px;
+}
+
+/*******************************************************/
+
+@media (max-width: 900px){
+
+  p{
+    display: none;
+  }
+
+  .caixa-mae {
     color: #ffffff;
-    font-size: 20x;
-}
-
-header img{
-    height: 60px;
-}
-
-header{
-    color: white;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    margin: 4px;
-    cursor: pointer;
-
-}
-
-header a:hover{
-    color: #C51111;
-    font-size: 18px;
-    transition: 1s color ease-in-out;
-}
-
-.formulario-fale-conosco{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 50px;
-    left: 50px;
-    padding: 20px;
-    border-radius: 5px;
-    gap: 20px;
-    top: 30%;
-    left: -233px;
-    transition: left 1s ease-in-out;
-}
-
-input{
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    padding-left: 5px;
-    outline-color: #18D80F;
-}
-
-textarea{
-    height: 100px;
-    height: 100px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    padding-left: 5px;
-    outline-color: #18D80F;
-}
-
-.mascara-formulario{
-    position: fixed;
-    top: 0;
-    width: 100vw;
     height: 100vh;
-    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    visibility: hidden;
-    transition: left 1s ease-in-out;
-}
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.caixa-principal{
-    width: 550px;
+  .caixa-principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+irmaos {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+  }
+  
+.logo-mario{
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .button{
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+  }
 }
